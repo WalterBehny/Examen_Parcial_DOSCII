@@ -19,8 +19,8 @@ enfoque especifico dedetalles como especificacion de la codificacion y diseño d
 
 - Drivers arquitecturales y conceptos de diseño.-
 
-Finalmente, una arquitectura bien diseñada y adecuadamente comunicada es clave para lograr acuerdos que guíen
-al equipo. Los tipos más importantes son los acuerdos sobre interfaces y recursos compartidos.
+Una arquitectura bien diseñada y adecuadamente comunicada importante para lograr acuerdos que guíen
+al equipo. se tienen estos 5 drivers arquitecturales :
 
 1 Propósito del diseño : Se debe tener claro el propósito del diseño que desea lograr como primer punto.
 
