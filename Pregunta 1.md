@@ -14,7 +14,8 @@ equerimientos-->Diseño-->Desarrollo-->Test--> Mantenimiento
 Considerando que el Nivel de abstraccion para el diseño de software es de bajo nivel con un 
 enfoque especifico dedetalles como especificacion de la codificacion y diseño detallado de los componentes .
 
-- Favorecer la composición de objetos frente a la herencia de clases.-
+- Favorecer la composición de objetos frente a la herencia de clases.- La programacion orientada a objetos favorece la composicion de objetos a la herencia de clases dado que la  Herencia es una dependencia fuerte de clases
+
 
 
 - Drivers arquitecturales y conceptos de diseño.-
@@ -39,8 +40,8 @@ DDD es un conjunto de técnicas avanzadas para ser utilizado en proyectos de sof
 Muchos equipos de desarrollo de software no dan diseño ni siquiera un pensamiento pasajero.
  
 --El costo para el negocio suele ser el precio más alto pagado por tales diseños inexistentes.
--- Esto sucede a menudo debido a la presión para entregar versiones de software en un horario implacable.
--- Pensar en el costo de DDD ,pero tomando en cuenta es mas caro arreglar un mal diseño.
+--Esto sucede a menudo debido a la presión para entregar versiones de software en un horario implacable.
+--Pensar en el costo de DDD ,pero tomando en cuenta es mas caro arreglar un mal diseño.
 
 - Comand Query Responsibility Segregation (CQRS).-
 
