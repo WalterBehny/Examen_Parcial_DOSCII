@@ -52,8 +52,7 @@ diseño, modelo de información y mecanismo de persistencia diferente, optimizad
 deba afrontar. 
 
 En particular, CQRS solo debe usarse en partes específicas de un sistema (BoundedContext  DDD)
-y no en el sistema en su conjunto. En esta forma de pensar, cada contexto limitado necesita sus propias
- decisiones sobre cómo debe modelarse. 
+y no en el sistema en su conjunt, cada bounded context  necesita sus propias decisiones sobre cómo debe modelarse. 
 
 Tiene como atributos de calidad :  Escalabilidad,performance y simplicidad
 
