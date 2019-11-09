@@ -38,9 +38,9 @@ un alto valor,tanto estratégica como tácticamente.
 DDD es un conjunto de técnicas avanzadas para ser utilizado en proyectos de software complejos.
 Muchos equipos de desarrollo de software no dan diseño ni siquiera un pensamiento pasajero.
  
-- El costo para el negocio suele ser el precio más alto pagado por tales diseños inexistentes.
-- Esto sucede a menudo debido a la presión para entregar versiones de software en un horario implacable.
-- Pensar en el costo de DDD ,pero tomando en cuenta es mas caro arreglar un mal diseño.
+--El costo para el negocio suele ser el precio más alto pagado por tales diseños inexistentes.
+-- Esto sucede a menudo debido a la presión para entregar versiones de software en un horario implacable.
+-- Pensar en el costo de DDD ,pero tomando en cuenta es mas caro arreglar un mal diseño.
 
 - Comand Query Responsibility Segregation (CQRS).-
 
