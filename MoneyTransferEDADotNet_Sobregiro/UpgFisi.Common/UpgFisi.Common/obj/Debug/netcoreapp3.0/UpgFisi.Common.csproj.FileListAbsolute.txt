@@ -1,0 +1,7 @@
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\bin\Debug\netcoreapp3.0\UpgFisi.Common.deps.json
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\bin\Debug\netcoreapp3.0\UpgFisi.Common.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\bin\Debug\netcoreapp3.0\UpgFisi.Common.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\obj\Debug\netcoreapp3.0\UpgFisi.Common.AssemblyInfoInputs.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\obj\Debug\netcoreapp3.0\UpgFisi.Common.AssemblyInfo.cs
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\obj\Debug\netcoreapp3.0\UpgFisi.Common.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\UpgFisi.Common\UpgFisi.Common\obj\Debug\netcoreapp3.0\UpgFisi.Common.pdb

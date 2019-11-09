@@ -1,0 +1,24 @@
+﻿2019-11-08 19:19:00.942 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:19:01.160 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:19:01.207 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:34:53.385 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:34:53.589 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:34:53.639 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:48:05.578 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:48:05.817 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:48:05.854 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:54:36.321 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:54:36.526 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:54:36.558 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:02:39.277 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:02:39.528 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:02:39.573 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:05:07.301 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:05:07.487 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:05:07.518 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:22:47.111 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:22:47.344 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:22:47.382 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:33:05.241 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.NSB.Endpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:33:05.452 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:33:05.479 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.

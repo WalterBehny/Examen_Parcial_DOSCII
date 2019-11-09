@@ -1,0 +1,13 @@
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\Transactions.Infrastructure.deps.json
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\Transactions.Infrastructure.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\Transactions.Infrastructure.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\Transactions.Domain.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\UpgFisi.Common.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\Transactions.Domain.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\bin\Debug\netcoreapp3.0\UpgFisi.Common.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\obj\Debug\netcoreapp3.0\Transactions.Infrastructure.csprojAssemblyReference.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\obj\Debug\netcoreapp3.0\Transactions.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\obj\Debug\netcoreapp3.0\Transactions.Infrastructure.AssemblyInfo.cs
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\obj\Debug\netcoreapp3.0\Transactions.Infrastructure.csproj.CopyComplete
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\obj\Debug\netcoreapp3.0\Transactions.Infrastructure.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.Infrastructure\obj\Debug\netcoreapp3.0\Transactions.Infrastructure.pdb

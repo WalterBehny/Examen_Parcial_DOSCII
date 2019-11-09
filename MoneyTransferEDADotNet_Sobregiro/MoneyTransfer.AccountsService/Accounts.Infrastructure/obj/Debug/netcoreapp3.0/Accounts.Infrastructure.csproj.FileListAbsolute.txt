@@ -1,0 +1,13 @@
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\Accounts.Infrastructure.deps.json
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\Accounts.Infrastructure.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\Accounts.Infrastructure.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\Accounts.Domain.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\UpgFisi.Common.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\Accounts.Domain.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\bin\Debug\netcoreapp3.0\UpgFisi.Common.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\obj\Debug\netcoreapp3.0\Accounts.Infrastructure.csprojAssemblyReference.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\obj\Debug\netcoreapp3.0\Accounts.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\obj\Debug\netcoreapp3.0\Accounts.Infrastructure.AssemblyInfo.cs
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\obj\Debug\netcoreapp3.0\Accounts.Infrastructure.csproj.CopyComplete
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\obj\Debug\netcoreapp3.0\Accounts.Infrastructure.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Infrastructure\obj\Debug\netcoreapp3.0\Accounts.Infrastructure.pdb

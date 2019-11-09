@@ -1,0 +1,16 @@
+﻿2019-11-08 19:19:01.321 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:19:01.671 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:34:53.924 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:34:54.331 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:48:05.382 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:48:05.823 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:54:35.423 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:54:35.975 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:02:38.177 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:02:38.611 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:05:06.345 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:05:06.710 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:22:46.865 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:22:47.324 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:33:04.353 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.TransactionsService\Transactions.API\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:33:04.798 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.

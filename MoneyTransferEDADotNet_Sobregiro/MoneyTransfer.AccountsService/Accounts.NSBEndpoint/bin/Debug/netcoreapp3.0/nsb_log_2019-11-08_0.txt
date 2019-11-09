@@ -1,0 +1,535 @@
+﻿2019-11-08 19:19:00.946 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:19:01.178 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:19:01.214 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:22:13.296 INFO  WithdrawMoneyCommand, TransferId = e0e7b49f-a133-4230-9c6b-4702fe381622
+2019-11-08 19:22:15.475 INFO  DepositMoneyCommand, TransferId = e0e7b49f-a133-4230-9c6b-4702fe381622
+2019-11-08 19:22:42.158 INFO  WithdrawMoneyCommand, TransferId = 3b355d61-6b1d-4018-871e-a8e06263801e
+2019-11-08 19:22:42.604 INFO  DepositMoneyCommand, TransferId = 3b355d61-6b1d-4018-871e-a8e06263801e
+2019-11-08 19:22:58.959 INFO  WithdrawMoneyCommand, TransferId = d9cbe75f-8fcf-4ec8-8e0c-3e76c852b8c1
+2019-11-08 19:23:08.115 INFO  WithdrawMoneyCommand, TransferId = fe8a030b-d170-4f66-81bb-243538d67048
+2019-11-08 19:34:53.389 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:34:53.616 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:34:53.651 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:48:04.894 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:48:05.136 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:48:05.185 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:49:00.620 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:00.746 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:00
+	Handler failure time: 9/11/2019 00:49:00
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:00.782 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:00.823 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:00
+	Handler failure time: 9/11/2019 00:49:00
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:00.848 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:00.886 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:00
+	Handler failure time: 9/11/2019 00:49:00
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:00.911 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:00.953 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:00
+	Handler failure time: 9/11/2019 00:49:00
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:00.977 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:01.013 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:00
+	Handler failure time: 9/11/2019 00:49:01
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:01.035 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:01.076 WARN  Delayed Retry will reschedule message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' after a delay of 00:00:10 because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:01
+	Handler failure time: 9/11/2019 00:49:01
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:11.714 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:11.750 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:11
+	Handler failure time: 9/11/2019 00:49:11
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:11.768 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:11.803 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:11
+	Handler failure time: 9/11/2019 00:49:11
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:11.819 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:11.858 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:11
+	Handler failure time: 9/11/2019 00:49:11
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:11.877 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:11.912 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:11
+	Handler failure time: 9/11/2019 00:49:11
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:11.930 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:11.967 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:11
+	Handler failure time: 9/11/2019 00:49:11
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:11.988 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:12.026 WARN  Delayed Retry will reschedule message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' after a delay of 00:00:20 because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:11
+	Handler failure time: 9/11/2019 00:49:12
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:32.344 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:32.393 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:32
+	Handler failure time: 9/11/2019 00:49:32
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:32.412 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:32.449 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:32
+	Handler failure time: 9/11/2019 00:49:32
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:32.470 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:32.511 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:32
+	Handler failure time: 9/11/2019 00:49:32
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:32.529 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:32.563 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:32
+	Handler failure time: 9/11/2019 00:49:32
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:32.582 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:32.619 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:32
+	Handler failure time: 9/11/2019 00:49:32
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:49:32.637 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:49:32.673 WARN  Delayed Retry will reschedule message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' after a delay of 00:00:30 because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:49:32
+	Handler failure time: 9/11/2019 00:49:32
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:50:03.080 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:50:03.117 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:50:03
+	Handler failure time: 9/11/2019 00:50:03
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:50:03.136 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:50:03.172 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:50:03
+	Handler failure time: 9/11/2019 00:50:03
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:50:03.191 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:50:03.228 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:50:03
+	Handler failure time: 9/11/2019 00:50:03
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:50:03.246 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:50:03.286 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:50:03
+	Handler failure time: 9/11/2019 00:50:03
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:50:03.308 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:50:03.350 INFO  Immediate Retry is going to retry message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' because of an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:50:03
+	Handler failure time: 9/11/2019 00:50:03
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:50:03.371 INFO  WithdrawMoneyCommand, TransferId = 3fa191f1-04e1-4e92-880b-f841ed1e12f7
+2019-11-08 19:50:03.411 ERROR Moving message '1c8c5c93-e6e1-445d-b007-ab00000d75b0' to the error queue 'error' because processing failed due to an exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Accounts.Domain.Account.CanWithdrawMoney(Decimal amount) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Domain\Account.cs:line 38
+   at Accounts.NSBEndpoint.WithdrawMoneyHandler.Handle(WithdrawMoneyCommand message, IMessageHandlerContext context) in C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\WithdrawMoneyHandler.cs:line 26
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(BasicDeliverEventArgs message)
+Exception details:
+	Message type: Accounts.Messages.Commands.WithdrawMoneyCommand
+	Handler type: Accounts.NSBEndpoint.WithdrawMoneyHandler
+	Handler start time: 9/11/2019 00:50:03
+	Handler failure time: 9/11/2019 00:50:03
+	Message ID: 1c8c5c93-e6e1-445d-b007-ab00000d75b0
+2019-11-08 19:54:35.177 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 19:54:35.438 INFO  Auditing processed messages to 'audit'
+2019-11-08 19:54:35.494 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 19:55:22.853 INFO  WithdrawMoneyCommand, TransferId = 90e37bbc-2b2f-4cf3-a74d-f45e0c3d84dd
+2019-11-08 19:55:24.964 INFO  DepositMoneyCommand, TransferId = 90e37bbc-2b2f-4cf3-a74d-f45e0c3d84dd
+2019-11-08 19:55:25.796 INFO  WithdrawMoneyCommand, TransferId = 1ace1368-4639-4590-b08a-9b49e1d62faf
+2019-11-08 19:56:51.558 INFO  WithdrawMoneyCommand, TransferId = 99150931-3ad2-4a4a-83bf-e58b720e4482
+2019-11-08 19:56:52.613 INFO  DepositMoneyCommand, TransferId = 99150931-3ad2-4a4a-83bf-e58b720e4482
+2019-11-08 19:58:09.674 INFO  WithdrawMoneyCommand, TransferId = c8f7b949-88bb-4f23-8428-6bbca494dcb7
+2019-11-08 19:58:10.323 INFO  DepositMoneyCommand, TransferId = c8f7b949-88bb-4f23-8428-6bbca494dcb7
+2019-11-08 20:02:38.001 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:02:38.266 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:02:38.325 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:05:05.849 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:05:06.095 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:05:06.152 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:05:54.074 INFO  WithdrawMoneyCommand, TransferId = 750331d5-4e3c-48ef-bf19-32ba8abf88f3
+2019-11-08 20:05:54.299 INFO  WithdrawMoneyCommand, TransferId = 4aceb63b-5014-484b-a183-02e1d73b83d6
+2019-11-08 20:05:56.168 INFO  DepositMoneyCommand, TransferId = 750331d5-4e3c-48ef-bf19-32ba8abf88f3
+2019-11-08 20:06:20.099 INFO  WithdrawMoneyCommand, TransferId = 7e398c69-b137-4246-beb4-970b45831008
+2019-11-08 20:06:20.467 INFO  DepositMoneyCommand, TransferId = 7e398c69-b137-4246-beb4-970b45831008
+2019-11-08 20:19:49.619 INFO  WithdrawMoneyCommand, TransferId = 3d7e6880-731c-4f74-98df-8f7e5b855151
+2019-11-08 20:19:50.423 INFO  DepositMoneyCommand, TransferId = 3d7e6880-731c-4f74-98df-8f7e5b855151
+2019-11-08 20:22:46.320 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:22:46.595 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:22:46.636 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:33:03.914 INFO  Logging to 'C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.NSBEndpoint\bin\Debug\netcoreapp3.0\' with level Info
+2019-11-08 20:33:04.170 INFO  Auditing processed messages to 'audit'
+2019-11-08 20:33:04.204 INFO  No valid license could be found. Falling back to trial license with start date '2019-11-06'.
+2019-11-08 20:33:53.136 INFO  WithdrawMoneyCommand, TransferId = 0e1cbae8-24d7-4f42-b3aa-19d7a746e09d
+2019-11-08 20:33:55.054 INFO  DepositMoneyCommand, TransferId = 0e1cbae8-24d7-4f42-b3aa-19d7a746e09d
+2019-11-08 20:36:34.386 INFO  WithdrawMoneyCommand, TransferId = 8c0cecd9-7804-4733-abfb-e0df121c304f
+2019-11-08 20:36:34.777 INFO  DepositMoneyCommand, TransferId = 8c0cecd9-7804-4733-abfb-e0df121c304f
+2019-11-08 20:38:01.216 INFO  WithdrawMoneyCommand, TransferId = 64eca737-fdd1-46d5-82bc-fb5a1b3c62ed
+2019-11-08 20:40:13.124 INFO  WithdrawMoneyCommand, TransferId = 4e7527ad-33fd-48ca-a718-c9670a25ee2a
+2019-11-08 20:40:13.557 INFO  DepositMoneyCommand, TransferId = 4e7527ad-33fd-48ca-a718-c9670a25ee2a

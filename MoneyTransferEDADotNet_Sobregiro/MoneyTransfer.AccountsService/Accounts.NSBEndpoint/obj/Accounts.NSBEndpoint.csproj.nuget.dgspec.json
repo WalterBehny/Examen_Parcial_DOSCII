@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.NSBEndpoint\\Accounts.NSBEndpoint.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Domain\\Accounts.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Domain\\Accounts.Domain.csproj",
+        "projectName": "Accounts.Domain",
+        "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Domain\\Accounts.Domain.csproj",
+        "packagesPath": "C:\\Users\\NOJEDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOJEDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj": {
+                "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Infrastructure\\Accounts.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Infrastructure\\Accounts.Infrastructure.csproj",
+        "projectName": "Accounts.Infrastructure",
+        "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Infrastructure\\Accounts.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\NOJEDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOJEDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Domain\\Accounts.Domain.csproj": {
+                "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Domain\\Accounts.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            },
+            "NServiceBus.NHibernate": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Messages\\Accounts.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Messages\\Accounts.Messages.csproj",
+        "projectName": "Accounts.Messages",
+        "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Messages\\Accounts.Messages.csproj",
+        "packagesPath": "C:\\Users\\NOJEDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOJEDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.NSBEndpoint\\Accounts.NSBEndpoint.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.NSBEndpoint\\Accounts.NSBEndpoint.csproj",
+        "projectName": "Accounts.NSBEndpoint",
+        "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.NSBEndpoint\\Accounts.NSBEndpoint.csproj",
+        "packagesPath": "C:\\Users\\NOJEDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.NSBEndpoint\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOJEDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Infrastructure\\Accounts.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Infrastructure\\Accounts.Infrastructure.csproj"
+              },
+              "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Messages\\Accounts.Messages.csproj": {
+                "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\MoneyTransfer.AccountsService\\Accounts.Messages\\Accounts.Messages.csproj"
+              },
+              "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj": {
+                "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentMigrator.Runner.MySql": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "NServiceBus.NHibernate": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "NServiceBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj",
+        "projectName": "UpgFisi.Common",
+        "projectPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\UpgFisi.Common.csproj",
+        "packagesPath": "C:\\Users\\NOJEDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NOJEDA\\Documents\\GitHub\\MoneyTransferEDADotNet\\UpgFisi.Common\\UpgFisi.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NOJEDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

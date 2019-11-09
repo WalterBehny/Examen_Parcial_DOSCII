@@ -1,0 +1,11 @@
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\bin\Debug\netcoreapp3.0\Customers.Domain.deps.json
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\bin\Debug\netcoreapp3.0\Customers.Domain.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\bin\Debug\netcoreapp3.0\Customers.Domain.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\bin\Debug\netcoreapp3.0\UpgFisi.Common.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\bin\Debug\netcoreapp3.0\UpgFisi.Common.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\obj\Debug\netcoreapp3.0\Customers.Domain.csprojAssemblyReference.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\obj\Debug\netcoreapp3.0\Customers.Domain.AssemblyInfoInputs.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\obj\Debug\netcoreapp3.0\Customers.Domain.AssemblyInfo.cs
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\obj\Debug\netcoreapp3.0\Customers.Domain.csproj.CopyComplete
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\obj\Debug\netcoreapp3.0\Customers.Domain.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.CustomersService\Customers.Domain\obj\Debug\netcoreapp3.0\Customers.Domain.pdb

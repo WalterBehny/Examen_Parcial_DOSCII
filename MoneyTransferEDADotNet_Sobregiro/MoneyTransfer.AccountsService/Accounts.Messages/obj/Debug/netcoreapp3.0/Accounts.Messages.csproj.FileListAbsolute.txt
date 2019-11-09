@@ -1,0 +1,8 @@
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\bin\Debug\netcoreapp3.0\Accounts.Messages.deps.json
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\bin\Debug\netcoreapp3.0\Accounts.Messages.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\bin\Debug\netcoreapp3.0\Accounts.Messages.pdb
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\obj\Debug\netcoreapp3.0\Accounts.Messages.csprojAssemblyReference.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\obj\Debug\netcoreapp3.0\Accounts.Messages.AssemblyInfoInputs.cache
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\obj\Debug\netcoreapp3.0\Accounts.Messages.AssemblyInfo.cs
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\obj\Debug\netcoreapp3.0\Accounts.Messages.dll
+C:\Users\NOJEDA\Documents\GitHub\MoneyTransferEDADotNet\MoneyTransfer.AccountsService\Accounts.Messages\obj\Debug\netcoreapp3.0\Accounts.Messages.pdb
